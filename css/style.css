@@ -15,14 +15,36 @@ body {
     font-family: "Playfair Display", "Roboto", sans-serif;
     background: #ffffff;
 }
-
+.weekend {
+    margin-bottom: 130px;
+}
 .weekend-description {
     width: 880px;
 }
-.wrapper span {
+.wrapper span,
+.wrapper .answear {
     color: #b4ad9e;
     font-family: Ubuntu, "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 300;
     text-transform: uppercase;
+}
+.page-item figure {
+    margin-bottom: 20px;
+}
+.page-item span {
+    display: block;
+    margin-bottom: 30px;
+}
+.list-pages {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page-item {
+    width: 423px;
+    margin-bottom: 100px;
+}
+.page-item:nth-child(2n+1) {
+    margin-right: 56px;
 }
