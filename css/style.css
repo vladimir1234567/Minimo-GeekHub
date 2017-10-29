@@ -97,15 +97,40 @@ body {
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    padding: 23px 35px;
+    padding: 20px 35px;
     outline: none;
-    box-shadow: none;
     background: none;
     margin: 30vh auto auto;
     font-family: "Playfair Display", "Roboto", sans-serif;
+    overflow: hidden;
+    border: 1px solid #626262;
+    box-shadow: 1px 1px 0 0 #626262;
 
 }
-button:active,
-button:focus {
-    outline: none;
+.load-button:active {
+    box-shadow: -1px -1px 0 0 #626262;
+}
+
+/*===========================================================*/
+footer {
+    padding: 40px 0 45px 0;
+    background: #f0f0f0;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+.wrapper .conditions-list {
+    display: flex;
+}
+.conditions-list .conditions-item {
+    margin-right: 20px;
+}
+.conditions-item a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
 }
