@@ -1,20 +1,26 @@
-.main-header {
+.diary {
+    height: 100vh;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+.wrap {
     max-width: 1062px;
     margin: 0 auto;
-    padding: 70px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #ffffff;
-;
-}
-.menu {
 
+}
+.main-header {
+    padding: 70px 0;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    right: 0;
 }
 .main-header .logo {
     width: 119px;
     margin: 0;
-    /*height: 23px;*/
 }
 .logo a {
     display; block;
