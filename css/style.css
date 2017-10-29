@@ -21,7 +21,7 @@ body {
 .weekend-description {
     width: 880px;
 }
-.wrapper span,
+.wrapper .my-diary,
 .wrapper .answear {
     color: #b4ad9e;
     font-family: Ubuntu, "Roboto", sans-serif;
@@ -32,7 +32,7 @@ body {
 .page-item figure {
     margin-bottom: 20px;
 }
-.page-item span {
+.page-item .my-diary {
     display: block;
     margin-bottom: 30px;
 }
@@ -48,3 +48,41 @@ body {
 .page-item:nth-child(2n+1) {
     margin-right: 56px;
 }
+/*------------------------------------------------------------------------*/
+.newsletter {
+    width: 100%;
+    padding: 75px 0;
+    background: #f0f0f0;
+    margin-bottom: 100px;
+}
+.wrapp {
+    width: 400px;
+    margin: 0 auto;
+}
+.form-title {
+    text-align: center;
+    margin-bottom: 90px;
+}
+.newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    color: #626262;
+    border: none;
+    border-bottom: 2px solid #3e3e3e;
+    background: #f0f0f0;
+}
+.newsletter form {
+    position: relative;
+}
+.newsletter form button {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    border: none;
+    background: none;
+}
+.newsletter form input:focus {
+    outline: none;
+}
+/*=======================================================*/
+
