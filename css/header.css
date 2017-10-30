@@ -1,7 +1,6 @@
 .diary {
     height: 100vh;
     overflow: hidden;
-    margin-bottom: 100px;
 }
 .wrap {
     max-width: 1062px;

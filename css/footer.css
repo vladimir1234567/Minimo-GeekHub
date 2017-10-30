@@ -1,0 +1,58 @@
+footer {
+    padding: 40px 0 45px 0;
+    background: #f0f0f0;
+}
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: none;
+}
+.wrapper .conditions-list {
+    display: flex;
+}
+.conditions-list .conditions-item {
+    margin-right: 20px;
+}
+.conditions-item a {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.social span {
+    color: #000000;
+    font-family: "Playfair Display", "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.social-item a {
+    display: block;
+    font-size: 0;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background: url("../img/sprite.png") 0 0;
+}
+.social-item:first-child a {
+    background-position: 0 0;
+}
+.social-item:nth-child(2) a {
+    background-position: -33px 0;
+}
+.social-item:nth-child(3) a {
+    background-position: -66px 0;
+}
+.wrapper .social-list {
+    display: flex;
+}
+..social-list .social-item {
+    margin-right: 20px;
+}

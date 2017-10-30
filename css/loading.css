@@ -1,0 +1,23 @@
+.loading {
+    position: relative;
+    width: 100%;
+    min-height: 200vh;
+}
+.load-button {
+    display: block;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 20px 35px;
+    outline: none;
+    background: none;
+    margin: 30% auto auto;
+    font-family: "Playfair Display", "Roboto", sans-serif;
+    overflow: hidden;
+    border: 1px solid #626262;
+    box-shadow: -1px 1px 0 0 #626262;
+}
+.load-button:active {
+    box-shadow: 1px -1px 0 0 #626262;
+}
