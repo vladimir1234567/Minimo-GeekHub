@@ -53,6 +53,6 @@ footer .wrapper {
 .wrapper .social-list {
     display: flex;
 }
-..social-list .social-item {
-    margin-right: 20px;
+.social-list .social-item {
+    margin-right: 5px;
 }

@@ -23,7 +23,7 @@
     margin: 0;
 }
 .logo a {
-    display; block;
+    display: block;
     position: relative;
     color: #000000;
     font-family: Inconsolata, "Roboto", sans-serif;
@@ -37,8 +37,8 @@
     position: absolute;
     width: 2px;
     height: 25px;
-    right: 13px;
-    top: 4px;
+    right: 6px;
+    top: 0px;
     background: #000000;
 
     transform: rotate(30deg);
