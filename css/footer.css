@@ -1,8 +1,8 @@
-footer {
+.page-footer {
     padding: 40px 0 45px 0;
     background: #f0f0f0;
 }
-footer .wrapper {
+.page-footer .wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
