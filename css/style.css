@@ -15,12 +15,12 @@ body {
     font-family: "Playfair Display", "Roboto", sans-serif;
     background: #ffffff;
 }
-.perfect-weekend {
-    padding-top: 160px;
-}
 .diary {
     height: 100vh;
     overflow: hidden;
+}
+.perfect-weekend {
+    padding-top: 160px;
 }
 .weekend-description {
     width: 880px;
