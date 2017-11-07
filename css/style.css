@@ -9,7 +9,7 @@ body {
     line-height: 24px;
 }
 .wrapper {
-    max-width: 902px;
+    width: 902px;
     margin: 0 auto;
     padding: 0 80px;
     font-family: "Playfair Display", "Roboto", sans-serif;

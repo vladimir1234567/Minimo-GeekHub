@@ -1,11 +1,13 @@
-.home {
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    margin: 0 auto;
+.diary {
     padding-top: 160px;
+    height: 100vh;
 }
-.home img {
-    min-width: 100%;
+.diary .wrapp {
+    width: 94%;
+    height: auto;
+    margin: 0 auto;
+}
+.wrapp img {
+    width: 100%;
     height: auto;
 }
